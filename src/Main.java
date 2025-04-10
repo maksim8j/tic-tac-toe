@@ -15,6 +15,8 @@ public class Main {
             }
             
         }
+        //todo нал нельзя возвращать, удалить потом
+        return null;
     }
 
     private static void startGameLoop(){
@@ -32,4 +34,5 @@ public class Main {
     private static void checkGameState(){
 
     }
+
 }
