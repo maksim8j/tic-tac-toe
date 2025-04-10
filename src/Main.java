@@ -12,14 +12,15 @@ public class Main {
     }
 
     private static String[][] createBoard(){
+        String[][] board = new String[ROW_COUNT][COL_COUNT];
+
         for (int col = 0; col < ROW_COUNT; col++) {
             for (int row = 0; row < COL_COUNT; row++) {
 
             }
             
         }
-        //todo нал нельзя возвращать, удалить потом
-        return null;
+        return board;
     }
 
     private static void startGameLoop(){
