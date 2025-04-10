@@ -3,6 +3,10 @@ public class Main {
     private final static int ROW_COUNT = 3;
     private final static int COL_COUNT = 3;
 
+    private final static String CELL_STATE_EMPTY = "";
+    private final static String CELL_STATE_X = "X";
+    private final static String CELL_STATE_0 = "0";
+
     public static void main(String[] args) {
         System.out.println("Hello World");
     }
@@ -16,7 +20,7 @@ public class Main {
 
         for (int col = 0; col < ROW_COUNT; col++) {
             for (int row = 0; row < COL_COUNT; row++) {
-
+                board[row][col] = CELL_STATE_EMPTY;
             }
             
         }
