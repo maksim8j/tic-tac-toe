@@ -1,5 +1,8 @@
 public class Main {
 
+    private final static int ROW_COUNT = 3;
+    private final static int COL_COUNT = 3;
+
     public static void main(String[] args) {
         System.out.println("Hello World");
     }
