@@ -30,7 +30,7 @@ public class Main {
         return board;
     }
 
-    private static void startGameLoop() {
+    private static void startGameLoop(String[][] board) {
 
     }
 
