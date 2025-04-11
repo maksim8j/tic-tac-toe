@@ -45,10 +45,12 @@ public class Main {
     private static void inputBoardCoordinates(){
         System.out.println("Введите координаты через пробел (0-2): ");
 
-       String[] input = scanner.nextLine().split("");
+        do {
+            String[] input = scanner.nextLine().split("");
 
-       int row = Integer.parseInt(input[0]);
-       int col = Integer.parseInt(input[1]);
+            int row = Integer.parseInt(input[0]);
+            int col = Integer.parseInt(input[1]);
+        } while (true);
     }
 
     private static void makeBotTurn() {
