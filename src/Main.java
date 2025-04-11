@@ -50,6 +50,10 @@ public class Main {
 
             int row = Integer.parseInt(input[0]);
             int col = Integer.parseInt(input[1]);
+
+            if ((row < 0) || (row >= ROW_COUNT) || (col < 0) || (col >= COL_COUNT)) {
+
+            }
         } while (true);
     }
 
