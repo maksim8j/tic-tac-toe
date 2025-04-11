@@ -46,6 +46,9 @@ public class Main {
         System.out.println("Введите координаты через пробел (0-2): ");
 
        String[] input = scanner.nextLine().split("");
+
+       int row = Integer.parseInt(input[0]);
+       int col = Integer.parseInt(input[1]);
     }
 
     private static void makeBotTurn() {
