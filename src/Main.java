@@ -39,7 +39,7 @@ public class Main {
     }
 
     private static void inputBoardCoordinates(){
-
+        System.out.println("Введите координаты через пробел (0-2): ");
     }
 
     private static void makeBotTurn() {
