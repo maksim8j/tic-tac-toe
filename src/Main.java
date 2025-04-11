@@ -44,6 +44,8 @@ public class Main {
 
     private static void inputBoardCoordinates(){
         System.out.println("Введите координаты через пробел (0-2): ");
+
+       String[] input = scanner.nextLine().split("");
     }
 
     private static void makeBotTurn() {
