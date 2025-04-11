@@ -3,11 +3,13 @@ public class Main {
     private final static int ROW_COUNT = 3;
     private final static int COL_COUNT = 3;
 
-    private final static String CELL_STATE_EMPTY = "";
+    private final static String CELL_STATE_EMPTY = " ";
     private final static String CELL_STATE_X = "X";
     private final static String CELL_STATE_0 = "0";
 
     public static void main(String[] args) {
+        String[][] board = createBoard();
+
         System.out.println("Hello World");
     }
 
