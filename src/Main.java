@@ -13,35 +13,36 @@ public class Main {
         System.out.println("Hello World");
     }
 
-    private static void startGameRound(){
+    private static void startGameRound() {
+        String[][] board = createBoard();
+        startGameLoop(board);
 
     }
 
-    private static String[][] createBoard(){
+    private static String[][] createBoard() {
         String[][] board = new String[ROW_COUNT][COL_COUNT];
 
         for (int col = 0; col < ROW_COUNT; col++) {
             for (int row = 0; row < COL_COUNT; row++) {
                 board[row][col] = CELL_STATE_EMPTY;
             }
-            
         }
         return board;
     }
 
-    private static void startGameLoop(){
+    private static void startGameLoop() {
 
     }
 
-    private static void makePlayerTurn(){
+    private static void makePlayerTurn() {
 
     }
 
-    private static void makeBotTurn(){
+    private static void makeBotTurn() {
 
     }
 
-    private static void checkGameState(){
+    private static void checkGameState() {
 
     }
 
