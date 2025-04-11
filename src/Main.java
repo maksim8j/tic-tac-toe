@@ -42,7 +42,7 @@ public class Main {
 
     }
 
-    private static void inputBoardCoordinates(){
+    private static void inputBoardCoordinates(String[][] board) {
         System.out.println("Введите координаты через пробел (0-2): ");
 
         do {
