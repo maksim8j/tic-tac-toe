@@ -38,6 +38,10 @@ public class Main {
 
     }
 
+    private static void inputBoardCoordinates(){
+
+    }
+
     private static void makeBotTurn() {
 
     }
